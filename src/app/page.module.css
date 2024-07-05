@@ -108,6 +108,46 @@
 .logo {
   position: relative;
 }
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.about .intro {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.about .headline {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 0.25rem;
+}
+
+.socialLinks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main .about a,
+.footer a {
+  color: var(--link);
+}
+
+.footer a {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

@@ -1,95 +1,40 @@
+import React from 'react';
+import styles from './page.module.css';
 import Image from "next/image";
-import styles from "./page.module.css";
 
-export default function Home() {
+export default function page() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
+      <div className={styles.about}>
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
+          src="/my_avatar.png"
+          alt="my avatar"
+          width={200}
+          height={200}
           priority
         />
+        <div>
+          <p className={styles.intro}>Hello, my name is Aziz. I don't like to share a picture of mine :)</p>
+          <p className={styles.headline}>I am a <strong>Hacker</strong> & a <strong>Cyber Security Researcher</strong></p>
+          <p className={styles.headline}>I am an open source contributor @&nbsp;<a href="https://drupal.org">Drupal.</a> </p>
+          <p className={styles.headline}>I am a software engineer @&nbsp;<a href="https://softylines.com">Softylines</a></p>
+        </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <ul className={styles.socialLinks}>
+        <li><a href="https://drupal.org/u/azizos"><Image src="/social/water-outline.svg" alt="Drupal Logo" width={20} height={20}/></a></li>
+        <li><a href="https://github.com/aziz-712"><Image src="/social/logo-github.svg" alt="my personal github account" width={20} height={20}/></a></li>
+        <li><a href="https://github.com/ahmedazizabbassi"><Image src="/social/logo-github.svg" alt="my working github account" width={20} height={20}/></a></li>
+        <li><a href="https://gitlab.com/ahmedazizabbassi"><Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}/></a></li>
+        <li>|</li>
+        <li><a href="https://twitter.com/ahmed_abbassi_"><Image src="/social/logo-twitter.svg" alt="my twitter account" width={20} height={20}/></a></li>
+        <li><a href="https://linkedin.com/in/ahmed-aziz-abbassi"><Image src="/social/logo-linkedin.svg" alt="my linkedin account" width={20} height={20} /></a></li>
+        <li><a href="https://instagram.com/ahmed.aziz.abbassi"><Image src="/social/logo-instagram.svg" alt="my instagram account" width={20} height={20} /></a></li>
+        <li><a href="https://facebook.com/ahmadouazizabbassi"><Image src="/social/logo-facebook.svg" alt="my facebook account" width={20} height={20} /></a></li>
+      </ul>
+      <footer className={styles.footer}>
+        <a href="/poweredby">Powered by Next & Vercel</a> | Aziz &copy; {new Date().getFullYear()}
+      </footer>
     </main>
-  );
+  )
 }
