@@ -15,7 +15,7 @@ export default function page() {
           priority
         />
         <div>
-          <p className={styles.intro}>Hello, my name is Aziz. I don$apos;t like to share a picture of mine :)</p>
+          <p className={styles.intro}>Hello, my name is Aziz. I don&apos;t like to share a picture of mine :)</p>
           <p className={styles.headline}>I am a <strong>Hacker</strong> & a <strong>Cyber Security Researcher</strong></p>
           <p className={styles.headline}>I am an open source contributor @&nbsp;<a href="https://drupal.org">Drupal.</a> </p>
           <p className={styles.headline}>I am a software engineer @&nbsp;<a href="https://softylines.com">Softylines</a></p>
