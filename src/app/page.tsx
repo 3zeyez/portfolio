@@ -16,9 +16,9 @@ export default function page() {
         />
         <div>
           <p className={styles.intro}>Hello, my name is Aziz. I don&apos;t like to share a picture of mine :)</p>
-          <p className={styles.headline}>I am a <strong>Hacker</strong> & a <strong>Cyber Security Researcher</strong></p>
-          <p className={styles.headline}>I am an open source contributor @&nbsp;<a href="https://drupal.org">Drupal.</a> </p>
-          <p className={styles.headline}>I am a software engineer @&nbsp;<a href="https://softylines.com">Softylines</a></p>
+          <h1 className={`${styles.headline} ${styles.headline__1}`}>I am a <strong>Hacker</strong> & a <strong>Cyber Security Researcher</strong></h1>
+          <h2 className={`${styles.headline} ${styles.headline__2}`}>I am an open source contributor @&nbsp;<a href="https://drupal.org">Drupal.</a> </h2>
+          <h3 className={`${styles.headline} ${styles.headline__3}`}>I am a software engineer @&nbsp;<a href="https://softylines.com">Softylines</a></h3>
         </div>
       </div>
       <ul className={styles.socialLinks}>
