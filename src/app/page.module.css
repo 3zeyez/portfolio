@@ -130,12 +130,32 @@
   padding: 0.25rem;
 }
 
+.about .headline__1 {
+  font-size: 2rem;
+}
+
+.about .headline__2 {
+  font-size: 1.75rem;
+}
+
+.about .headline__3 {
+  font-size: 1.5rem;
+}
+
 .socialLinks {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.socialLinks li {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  place-content: center;
 }
 
 .main .about a,
