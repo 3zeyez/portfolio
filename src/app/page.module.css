@@ -150,6 +150,14 @@
   gap: 1rem;
 }
 
+.socialLinks li {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  place-content: center;
+}
+
 .main .about a,
 .footer a {
   color: var(--link);
