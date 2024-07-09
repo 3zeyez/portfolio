@@ -107,6 +107,8 @@
 
 .logo {
   position: relative;
+  border: 1px solid #ccc;
+  border-radius: 20%;
 }
 
 .about {
@@ -120,7 +122,8 @@
 .about .intro {
   font-size: 1.2rem;
   line-height: 1.5;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding: 0 .25rem;
 }
 
 .about .headline {
