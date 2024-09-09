@@ -3,7 +3,7 @@ import styles from '../page.module.css';
 import Image from "next/image";
 
 
-export default function() {
+export default function HomePage() {
     return (
     <main className={styles.main}>
       <div className={styles.about}>
