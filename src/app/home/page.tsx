@@ -8,7 +8,7 @@ export default function HomePage() {
     <main className={styles.main}>
       <div className={styles.about}>
         <Image
-          className={styles.logo}
+          className={styles.avatar}
           src="/my_avatar.png"
           alt="my avatar"
           width={200}
