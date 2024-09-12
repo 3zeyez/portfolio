@@ -26,7 +26,7 @@ export default function HomePage() {
           <li><a href="https://drupal.org/u/azizos"><Image src="/social/water-outline.svg" alt="Drupal Logo" width={20} height={20}/></a></li>
           <li><a href="https://gitlab.com/ahmedazizabbassi"><Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}/></a></li>
           <li><a href="https://gitlab.softylines.com/ahmedazizabbassi"><Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}/></a></li>
-          <li><a href="https://github.com/3zeyz"><Image src="/social/logo-github.svg" alt="my personal github account" width={20} height={20}/></a></li>
+          <li><a href="https://github.com/3zyez"><Image src="/social/logo-github.svg" alt="my personal github account" width={20} height={20}/></a></li>
           <li>|</li>
           <li><a href="https://twitter.com/ahmed_abbassi_"><Image src="/social/logo-twitter.svg" alt="my twitter account" width={20} height={20}/></a></li>
           <li><a href="https://linkedin.com/in/ahmed-aziz-abbassi"><Image src="/social/logo-linkedin.svg" alt="my linkedin account" width={20} height={20} /></a></li>
