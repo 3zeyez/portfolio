@@ -105,8 +105,11 @@
   transform: translateZ(0);
 }
 
-.logo {
+.avatar, .logo {
   position: relative;
+}
+
+.avatar {
   border: 1px solid #ccc;
   border-radius: 20%;
 }
