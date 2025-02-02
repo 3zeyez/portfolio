@@ -23,18 +23,46 @@ export default function HomePage() {
         </div>
         <ul className={styles.socialLinks}>
           <li>
-            <a href="https://drupal.org/u/azizos">
+            <a href={`https://drupal.org/u/${process.env.DRUPAL_USERNAME}`}>
               <Image src="/social/water-outline.svg" alt="Drupal Logo" width={20} height={20} className={styles.logo} />
             </a>
           </li>
-          <li><a href="https://gitlab.com/ahmedazizabbassi"><Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}className={styles.logo}/></a></li>
-          <li><a href="https://gitlab.softylines.com/ahmedazizabbassi"><Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}className={styles.logo}/></a></li>
-          <li><a href="https://github.com/3zyez"><Image src="/social/logo-github.svg" alt="my personal github account" width={20} height={20}className={styles.logo}/></a></li>
+          <li>
+            <a href={`https://gitlab.com/${process.env.GITLAB_USERNAME}`}>
+              <Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}className={styles.logo}/>
+            </a>
+          </li>
+          <li>
+            <a href={`https://gitlab.softylines.com/${process.env.GITLAB_SOFTYLINES_USERNAME}`}>
+              <Image src="/social/logo-gitlab.svg" alt="my working gitlab account" width={20} height={20}className={styles.logo}/>
+            </a>
+          </li>
+          <li>
+            <a href={`https://github.com/${process.env.GITHUB_USERNAME}`}>
+              <Image src="/social/logo-github.svg" alt="my personal github account" width={20} height={20}className={styles.logo}/>
+            </a>
+          </li>
           <li>|</li>
-          <li><a href="https://twitter.com/ahmed_abbassi_"><Image src="/social/logo-twitter.svg" alt="my twitter account" width={20} height={20}className={styles.logo}/></a></li>
-          <li><a href="https://linkedin.com/in/ahmed-aziz-abbassi"><Image src="/social/logo-linkedin.svg" alt="my linkedin account" width={20} height={20} className={styles.logo}/></a></li>
-          <li><a href="https://instagram.com/ahmed.aziz.abbassi"><Image src="/social/logo-instagram.svg" alt="my instagram account" width={20} height={20} className={styles.logo}/></a></li>
-          <li><a href="https://facebook.com/ahmadouazizabbassi"><Image src="/social/logo-facebook.svg" alt="my facebook account" width={20} height={20} className={styles.logo}/></a></li>
+          <li>
+            <a href={`https://twitter.com/${process.env.TWITTER_USERNAME}`}>
+              <Image src="/social/logo-twitter.svg" alt="my twitter account" width={20} height={20}className={styles.logo}/>
+            </a>
+          </li>
+          <li>
+            <a href={`https://linkedin.com/in/${process.env.LINKEDIN_USERNAME}`}>
+              <Image src="/social/logo-linkedin.svg" alt="my linkedin account" width={20} height={20} className={styles.logo}/>
+            </a>
+          </li>
+          <li>
+            <a href={`https://instagram.com/${process.env.META_USERNAME}`}>
+              <Image src="/social/logo-instagram.svg" alt="my instagram account" width={20} height={20} className={styles.logo}/>
+            </a>
+          </li>
+          <li>
+            <a href={`https://facebook.com/${process.env.META_USERNAME}`}>
+              <Image src="/social/logo-facebook.svg" alt="my facebook account" width={20} height={20} className={styles.logo}/>
+            </a>
+          </li>
         </ul>
         <footer className={styles.footer}>
           <a href="/poweredby">Powered by Next & Vercel</a> | Aziz &copy; {new Date().getFullYear()}
