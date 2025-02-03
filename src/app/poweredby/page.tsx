@@ -7,8 +7,7 @@ export default function Home() {
       <div className={styles.description}>
         <a href="/">
           <p>
-            Go back to &nbsp;
-            <code className={styles.code}>/home</code>
+            Go back to &nbsp;<code className={styles.code}>/home</code>
           </p>
         </a>
         <div>
